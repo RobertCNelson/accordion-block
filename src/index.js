@@ -86,12 +86,15 @@ export default grapesjs.plugins.add('grapesjs-accordions', (editor, opts = {}) =
         display: block;
         border-radius: 3px;
         margin-right: 10px;
+        background-color: #eee;
+        margin-top: 5px;
       }
 
       .accordion-content {
         display: none;
         padding: 6px 12px;
         min-height: 100px;
+        border: solid 1px #eee;
       }
 
     `

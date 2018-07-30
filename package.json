@@ -1,6 +1,6 @@
 {
   "name": "grapesjs-accordions",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Simple accordions component plugin for GrapesJS",
   "main": "dist/grapesjs-accordions.min.js",
   "scripts": {
