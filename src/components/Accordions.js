@@ -9,7 +9,7 @@ export default (dc, { defaultModel, defaultView, ...config }) => {
         ...defaultModel.prototype.defaults,
         copyable: true,
         name: 'Accordions',
-        'attr-accordions': config.aattrAccordions,
+        'attr-accordions': config.attrAccordions,
         'attr-accordion': config.attrAccordion,
         'attr-accordion-content': config.attrAccordionContent,
         'class-accordion-active': config.classAccordionActive,
