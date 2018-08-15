@@ -72,7 +72,7 @@ export default (dc, { defaultModel, defaultView, ...config }) => {
     }, {
       isComponent(el) {
         if (el.hasAttribute && el.hasAttribute(attrAccordions)) {
-          return { type };
+          return false;
         }
       },
     }),
